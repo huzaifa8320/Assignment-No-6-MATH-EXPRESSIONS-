@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 06 (MATH EXPRESSIONS)</title>
+</head>
+
+<body>
+
+
+
+
+
+    <script>
+        // Task No 1
+        var taskno1 = "<h1>Task No 1</h1>"
+        document.write(taskno1)
+        document.write("<h1>Result:</h1>")
+        var numa = prompt("Enter a number")
+        document.write("The value of a is:" + " " + numa + "<br>")
+        document.write("......................................" + "<br><br>")
+        document.write("The value of ++a is:" + " " + ++numa + "<br>")
+        document.write("Now the value of a is:" + " " + numa + "<br><br>")
+        document.write("The value of a++ is:" + " " + numa++ + "<br>")
+        document.write("Now the value of a is:" + " " + numa + "<br><br>")
+        document.write("The value of --a is:" + " " + --numa + "<br>")
+        document.write("Now the value of a is:" + numa + "<br><br>")
+        document.write("The value of a-- is" + " " + numa-- + "<br>")
+        document.write("Now the value of a is" + " " + numa + "<br><br>")
+
+        // Task No 2
+        var taskno2 = "<h1>Task No 2</h1>"
+        document.write(taskno2)
+        var a = 2
+        var b = 1
+        document.write("a is:" + " " + a + "<br>")
+        document.write("b is:" + " " + b + "<br>")
+        var result = ((--a - --b) + ++b) + b--
+        document.write("result is:" + " " + result)
+
+        // Task No 3
+        var taskno3 = "<h1>Task No 3</h1>"
+        document.write(taskno3)
+        
+        var gender = prompt("Enter you gender" ,"Male/Feemale")
+        if (gender == "Male") {
+            document.write("Assalamualikum sir")
+        }
+        else if (gender == "Feemale") {
+            document.write("Assalamualikum sister")
+        }
+        else {
+            document.write("Please enter your gender like Male / Feemale")
+        }
+        // var table = prompt("Which table do you want")
+        // document.write(table + " " + "x" + " " + "1" + " " + "=" + " " + table*1)
+    </script>
+</body>
+
+</html>
